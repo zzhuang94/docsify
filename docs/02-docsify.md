@@ -87,7 +87,7 @@ window.$docsify = {
 
 启用封面。设为 `true` 时加载根目录的 `_coverpage.md`。
 
-```javascript
+```typescript
 window.$docsify = {
   coverpage: true,
 };

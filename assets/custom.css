@@ -7,13 +7,23 @@
 .markdown-section {
   font-size: var(--base-font-size);
   line-height: var(--line-height);
+  margin: 0 1rem;
 }
+
 
 .markdown-section h1,
 .markdown-section h2,
-.markdown-section h3 {
-  margin-top: 0.2em;
-  margin-bottom: 0.1em;
+.markdown-section h3,
+.markdown-section ol,
+.markdown-section pre,
+.markdown-section p,
+.markdown-section p,
+.markdown-section ul {
+  margin: 0.6em 0;
+}
+
+.markdown-section pre>code {
+  padding: 0.5rem 0;
 }
 
 /* 侧栏宽度 */
