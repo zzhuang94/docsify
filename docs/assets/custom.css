@@ -12,13 +12,18 @@
 .markdown-section h1,
 .markdown-section h2,
 .markdown-section h3 {
-  margin-top: 1.2em;
-  margin-bottom: 0.6em;
+  margin-top: 0.2em;
+  margin-bottom: 0.1em;
 }
 
 /* 侧栏宽度 */
 .sidebar {
   width: 280px;
+}
+
+.sidebar > h1 {
+  text-align: left;
+  padding-left: 0.8em;
 }
 
 .sidebar-nav > ul {
@@ -27,8 +32,8 @@
 
 /* 内容区最大宽度与间距 */
 .content {
-  padding-top: 1.5rem;
-  padding-bottom: 3rem;
+  padding-top: 0.2rem;
+  padding-bottom: 0.1rem;
 }
 
 .markdown-section pre {
