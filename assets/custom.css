@@ -1,0 +1,40 @@
+/* 基础排版 */
+:root {
+  --base-font-size: 16px;
+  --line-height: 1.7;
+}
+
+.markdown-section {
+  font-size: var(--base-font-size);
+  line-height: var(--line-height);
+}
+
+.markdown-section h1,
+.markdown-section h2,
+.markdown-section h3 {
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
+}
+
+/* 侧栏宽度 */
+.sidebar {
+  width: 280px;
+}
+
+.sidebar-nav > ul {
+  padding-left: 0.8em;
+}
+
+/* 内容区最大宽度与间距 */
+.content {
+  padding-top: 1.5rem;
+  padding-bottom: 3rem;
+}
+
+.markdown-section pre {
+  border-radius: 6px;
+}
+
+.markdown-section code {
+  border-radius: 4px;
+}
